@@ -99,3 +99,12 @@ guardarbtn.addEventListener("click", function() {
     link.value = '';
     mostrartabla();
 })
+
+// borrar
+function borrar(index) {
+    let webtask = localStorage.getItem("localtask");
+    let arreglo = JSON.parse(webtask);
+    arreglo.splice(index, 1);
+    localStorage.setItem("localtask", JSON.stringify(arreglo));
+    mostrartabla();
+}
