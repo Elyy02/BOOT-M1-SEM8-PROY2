@@ -60,3 +60,18 @@ function mostrartabla() {
     });
     tabla.innerHTML = html;
 }
+// editar
+function editar(index) {
+    let guardarindex = document.getElementById("guardarindex");
+    let agregarbtn = document.getElementById("agregarbtn");
+    let guardarbtn = document.getElementById("guardarbtn");
+    guardarindex.value = index;
+    let webtask = localStorage.getItem("localtask");
+    let arreglo = JSON.parse(webtask);
+
+    fecha.value = arreglo[index]['task_nombre'];
+    tema.value = arreglo[index]['task_tema'];
+    link.value = arreglo[index]['task_link'];
+    // agregarbtn.style.display = "none";
+    guardarbtn.style.display = "block";
+}
