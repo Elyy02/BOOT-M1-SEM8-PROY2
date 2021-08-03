@@ -45,3 +45,139 @@
 .opcion {
     color: black;
 }
+
+.col-1 {
+    display: flex;
+    height: 30%;
+    align-items: center;
+    background-color: #E0E0E1;
+}
+
+.fi-1 {
+    margin-left: 60px;
+    flex-basis: 25%;
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-size: 45px;
+}
+
+.fi-2 {
+    display: flex;
+    margin-left: 3%;
+    height: 50%;
+    margin-bottom: 55px;
+}
+
+.fi-2 {
+    margin-right: 30px;
+}
+
+.parrafo-1 {
+    font-size: 17px;
+    line-height: 25px;
+}
+
+.imagen1 {
+    display: inline-block;
+    /* valores izquierdo/ derecho*/
+    padding: 7px 30px;
+}
+
+section.todo-outer {
+    width: 100%;
+    padding: 30px 0;
+}
+
+.boton {
+    /* largo del boton*/
+    width: 90px;
+    /* ancho del boton*/
+    height: 40px;
+    /* Color del texto dentro del boton*/
+    color: black;
+    font-size: 15px;
+    background-color: #C1B3BB;
+    border: 0px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.form-fecha {
+    /* largo de la caja*/
+    width: 160px;
+    /* ancho de la caja*/
+    height: 35px;
+    /* Color del texto dentro del boton*/
+    color: black;
+    font-size: 20px;
+    background-color: #E3DDE0;
+    border: 0px;
+    border-radius: 10px;
+    margin-top: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+}
+
+.form-control {
+    /* largo de la caja*/
+    width: 400px;
+    /* ancho de la caja*/
+    height: 30px;
+    /* Color del texto dentro del boton*/
+    color: black;
+    font-size: 20px;
+    background-color: #E3DDE0;
+    border: 0px;
+    border-radius: 10px;
+    margin-top: 35px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+}
+
+.form-control1 {
+    /* largo de la caja*/
+    width: 400px;
+    /* ancho de la caja*/
+    height: 30px;
+    /* Color del texto dentro del boton*/
+    color: black;
+    font-size: 20px;
+    background-color: #E3DDE0;
+    border: 0px;
+    border-radius: 10px;
+    margin-top: 35px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+}
+
+.table tr td button {
+    /* largo del boton*/
+    width: 90px;
+    /* ancho del boton*/
+    height: 40px;
+    /* Color del texto dentro del boton*/
+    color: black;
+    font-size: 15px;
+    background-color: #C1B3BB;
+    border: 0px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+th {
+    font-size: 13px;
+    font-weight: normal;
+    padding: 8px;
+    background: #D5CCD1;
+    color: black;
+}
+
+td {
+    padding: 8px;
+    background: #F1F1F1;
+    border-bottom: 1px solid #fff;
+    color: black;
+    border-top: 1px solid transparent;
+}
