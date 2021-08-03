@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+.contenedor {
+    margin-left: 68px;
+    width: 90%;
+    height: 100vh;
+    background-color: #F5F5F5;
+    /* fondo */
+    background-position: center;
+    /* fondo central */
+    background-size: cover;
+    padding-left: 4%;
+    /* margenes izquierdos */
+    padding-right: 4%;
+    /* margenes derechos */
+    box-sizing: border-box;
+    /* borde */
+}
+
+.menu {
+    height: 12%;
+    display: flex;
+    align-items: center;
+    background-color: F5F6FB;
+}
+
+.menu-nav {
+    flex: 1;
+    text-align: right;
+}
+
+.lista {
+    /* menu sin estilo */
+    list-style: none;
+    /* Menu horizontal*/
+    display: inline-block;
+    /* Separacion entre las opciones del menu*/
+    margin-left: 60px;
+}
+
+.opcion {
+    color: black;
+}
