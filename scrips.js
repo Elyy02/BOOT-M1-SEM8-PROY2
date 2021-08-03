@@ -75,3 +75,27 @@ function editar(index) {
     // agregarbtn.style.display = "none";
     guardarbtn.style.display = "block";
 }
+// guardar
+let guardarbtn = document.getElementById("guardarbtn");
+guardarbtn.addEventListener("click", function() {
+    let agregarbtn = document.getElementById("agregarbtn");
+    let webtask = localStorage.getItem("localtask");
+    let arreglo = JSON.parse(webtask);
+    let guardarindex = document.getElementById("guardarindex").value;
+
+    for (keys in arreglo[guardarindex]) {
+        if (keys == 'task_nombre' || keys == 'task_tema') {
+            arreglo[guardarindex].task_nombre = fecha.value;
+            arreglo[guardarindex].task_tema = tema.value;
+            arreglo[guardarindex].task_link = link.value;
+        }
+    }
+
+    guardarbtn.style.display = "none";
+    //     agregarbtn.style.display = "block";
+    localStorage.setItem("localtask", JSON.stringify(arreglo));
+    fecha.value = '';
+    tema.value = '';
+    link.value = '';
+    mostrartabla();
+})
